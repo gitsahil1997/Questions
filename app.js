@@ -9,7 +9,10 @@ btns.forEach(function(btn){
     questions.forEach(function(single){
     if(single !==item){
         single.classList.remove('show-text');
+        // console.log(single);
+        // console.log(item);
     }
+    
     });
 //toggling
     item.classList.toggle('show-text');
